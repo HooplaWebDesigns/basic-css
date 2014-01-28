@@ -1,0 +1,24 @@
+Line Break - WordPress
+Leesa Schuler September 12, 2013
+http://wordpress.org/support/topic/force-a-line-break-1 
+
+There are several ways to do it. I use <p>&nbsp;</p> 
+
+The standard way in HTML did not work in some versions of the TinyMCE editor. That was why I started using the longer form.
+
+
+@cindyp - for a single paragraph, how about ...
+<p style="padding: 7px;">
+
+Change your CSS - will cause increased space for all paragraphs.
+p 	{
+	padding: 7px;
+	}
+I searched everywhere looking for this and finally found it! 
+
+
+
+
+p 	{
+	padding: 7px;
+	}
